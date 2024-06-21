@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrap{
+  background-image: url(./../public/assets/main_back.webp);
+  background-position: center center;
+}
