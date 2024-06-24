@@ -1,31 +1,19 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-// import Partners from "./components/Partners";
-import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
-import Services from "./components/Services";
-import Header from "./components/Header";
+import About from './components/About';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Partners from './components/Partners';
+import Portfolio from './components/Portfolio';
+import Services from './components/Servicesfor';
 
 const App = () => {
   return (
     <>
-      <div className="wrapper">
-        <div className="wrap">
-          <div className="max-w-[1200px] mx-auto ">
-            <Header />
-          </div>
-          <Hero />
-        </div>
-      </div>
+      <Header />
       <About />
-      <div className="">
-        <Portfolio/>
-        <Services/>
-        {/* <Partners/> */}
-        <Footer/>
-
-
-      </div>
+      <Portfolio/>
+      <Services title={"Services"} desc={'OUR'} />
+      <Partners/>
+      <Footer/>
     </>
   );
 };

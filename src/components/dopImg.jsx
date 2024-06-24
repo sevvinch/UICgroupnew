@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Svg = () => {
+const dopImg = () => {
   return (
     <svg
       width="48"
@@ -25,4 +25,4 @@ const Svg = () => {
   );
 }
 
-export default Svg
+export default dopImg

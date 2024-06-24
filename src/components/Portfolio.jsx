@@ -1,10 +1,10 @@
-import React from "react";
 
 const Portfolio = () => {
   return (
+
     <div className="max-w-full w-full bg-[#131314]">
       <div className="max-w-[1200px] w-full flex flex-col items-center justify-center mx-auto py-20">
-        {/* Portfolio title and filter buttons */}
+       
         <div className="w-full flex items-center justify-between">
           <h1 className="font-bold uppercase text-[32px] md:text-[64px] text-white leading-[130%]">
             PORTFOLIO
@@ -25,10 +25,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        {/* Portfolio cards */}
+        
         <div className="w-full pt-8">
           <div className="w-full h-[400px] flex">
-            <div className="w-1/2 h-full p-5 bg-transparent flex relative cursor-pointer rounded-2xl" id="hello">
+            <div className="w-1/2 h-full p-5 bg-transparent flex relative cursor-pointer rounded-2xl" id="blur">
               <div className="absolute z-[5]">
                 <h2 className="lg:text-[38px] lg:leading-[45px] lg:mb-2 !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                   Uzbekistan's Club
@@ -44,10 +44,10 @@ const Portfolio = () => {
                   className="rounded-2xl h-full"
                 />
               </div>
-              <div className="w-full h-full absolute z-10 top-0 rounded-2xl left-0" id="hello"></div>
+              <div className="w-full h-full absolute z-10 top-0 rounded-2xl left-0" id="blur"></div>
             </div>
             <div className="w-1/2 grid z-10 grid-cols-2 gap-6 ml-[24px] h-full">
-              <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="hello">
+              <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Anatomica
@@ -63,9 +63,9 @@ const Portfolio = () => {
                     className="h-full rounded-xl"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="hello"></div>
+                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="blur"></div>
               </div>
-              <div className="w-[270px] h-[180px] cursor-pointer p-5 rounded-xl relative" id="hello">
+              <div className="w-[270px] h-[180px] cursor-pointer p-5 rounded-xl relative" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Anatomica App
@@ -81,9 +81,9 @@ const Portfolio = () => {
                     className="h-full rounded-xl"
                   />
                 </div>
-                <div className="w-full h-full absolute rounded-xl z-10 top-0 left-0" id="hello"></div>
+                <div className="w-full h-full absolute rounded-xl z-10 top-0 left-0" id="blur"></div>
               </div>
-              <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-xl" id="hello">
+              <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-xl" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Express24
@@ -99,9 +99,9 @@ const Portfolio = () => {
                     className="h-full rounded-xl opacity-40"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="hello"></div>
+                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="blur"></div>
               </div>
-              <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-xl" id="hello">
+              <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-xl" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Toshkent Parfum
@@ -117,14 +117,14 @@ const Portfolio = () => {
                     className="h-full rounded-xl opacity-30"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 rounded-xl top-0 left-0" id="hello"></div>
+                <div className="w-full h-full absolute z-10 rounded-xl top-0 left-0" id="blur"></div>
               </div>
             </div>
             
           </div>
           <div className="w-full h-[400px] flex mt-6">
             <div className="flex flex-col gap-8 items-center justify-center">
-            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="hello">
+            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Toshkent Parfum
@@ -140,9 +140,9 @@ const Portfolio = () => {
                     className="h-full rounded-xl opacity-30"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="hello"></div>
+                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="blur"></div>
               </div>
-            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="hello">
+            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Uzbekistan's club <br /> App
@@ -158,10 +158,10 @@ const Portfolio = () => {
                     className="h-full rounded-xl"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="hello"></div>
+                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="blur"></div>
               </div>
             </div>
-            <div className="w-1/2 h-full ml-6 p-5 bg-transparent flex relative cursor-pointer rounded-2xl" id="hello">
+            <div className="w-1/2 h-full ml-6 p-5 bg-transparent flex relative cursor-pointer rounded-2xl" id="blur">
               <div className="absolute z-[5]">
                 <h2 className="lg:text-[38px] lg:leading-[45px] lg:mb-2 !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                   WAYU
@@ -177,10 +177,10 @@ const Portfolio = () => {
                   className="rounded-2xl h-full"
                 />
               </div>
-              <div className="w-full h-full absolute z-10 top-0 rounded-2xl left-0" id="hello"></div>
+              <div className="w-full h-full absolute z-10 top-0 rounded-2xl left-0" id="blur"></div>
             </div>
             <div className="flex flex-col gap-8 ml-6 items-center justify-center">
-            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="hello">
+            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Ricomel
@@ -196,9 +196,9 @@ const Portfolio = () => {
                     className="h-full rounded-xl opacity-25"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="hello"></div>
+                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="blur"></div>
               </div>
-            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="hello">
+            <div className="w-[270px] h-[180px] cursor-pointer p-5 relative rounded-lg" id="blur">
                 <div className="absolute z-[5]">
                   <h2 className="lg:text-2xl lg:leading-[49px] lg:mb-[6px] !leading-[120%] text-white text-sm sm:text-base md:text-2xl sm:leading-[22px] font-bold !mb-1 line-clamp-3">
                     Infomax Freight
@@ -214,12 +214,12 @@ const Portfolio = () => {
                     className="h-full rounded-xl opacity-25"
                   />
                 </div>
-                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="hello"></div>
+                <div className="w-full h-full absolute z-10 top-0 left-0 rounded-xl" id="blur"></div>
               </div>
             </div>
           </div>
         </div>
-        {/* Portfolio cards */}
+        
       </div>
     </div>
   );
